@@ -41,9 +41,64 @@ cout<<"Space="<<x*y<<"CM^2";
 
 //----------------------------------------------------------//
 
-int i;
-cout<<i;
+// Assignment operators
+//int x=2;
+//x++;
+//cout<<"x="<<x;
+
+//int x=5 ;
+//x++;
+//cout<<"x="<<x++; --------> output x =0
+
+//int x=5 ;
+//++x;
+//cout<<"x="<<++x; --------> output x=6
+//
+//int x =3 ;
+//x=x+2;
+//cout<<"x="<<x;
+//
 
 
-    return 0 ;
+//    int x =3 ;
+//    x+=2;
+//    cout<<"x="<<x;
+
+
+// if statements
+
+//int x;
+//cout<<"Enter your number:";
+//cin>>x;
+//
+//if(x%2==0)
+//{
+//    cout<<"this number is even";
+//}
+//else
+//{
+//    cout<<"this number is oop";
+//}
+
+//int x ;
+//cout<<"Enter your number:";
+//cin>>x;
+//
+//if(x>0)
+//{
+//    cout<<"Positive";
+//}
+//else if(x<0)
+//{
+//    cout<<"Nagitive";
+//}else
+//{
+//    cout<<"Zero";
+//}
+
+int x ;
+cout<<"Enter your number:";
+cin >>x;
+x>0 ? cout<<"positive" : cout<< "nagitive";
+return 0 ;
 }
