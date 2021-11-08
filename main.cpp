@@ -41,7 +41,7 @@ cout<<"Space="<<x*y<<"CM^2";
 
 //----------------------------------------------------------//
 
-// Assignment operators
+// -------------------------------Assignment operators------------------//
 //int x=2;
 //x++;
 //cout<<"x="<<x;
@@ -65,7 +65,7 @@ cout<<"Space="<<x*y<<"CM^2";
 //    cout<<"x="<<x;
 
 
-// if statements
+// --------------------------------if statements---------------------------------//
 
 //int x;
 //cout<<"Enter your number:";
@@ -101,7 +101,7 @@ cout<<"Space="<<x*y<<"CM^2";
 //cin >>x;
 //x>0 ? cout<<"positive" : cout<< "nagitive";
 
-// Switch Statement ------------------مهم جدا جدا
+// ---------------------------Switch Statement ------------------مهم جدا جدا//
 
 //int x ;
 //cout<<"Enter Your Number";
@@ -115,6 +115,8 @@ cout<<"Space="<<x*y<<"CM^2";
 //        case 3: cout<<"3";break;
 //        default: cout<<"noun";break;
 //    }
+
+
 
 //int x ,y , result;
 //char op ;
@@ -141,5 +143,7 @@ cout<<"Space="<<x*y<<"CM^2";
 //    cin>> op;
 //    result = (op == '+') ? x+y : (op == '-') ? x-y : (op == '*') ? x*y :(op == '/') ? x/y : x%y ;
 //    cout<<"Result:"<<result;
+
+
 return 0 ;
 }
