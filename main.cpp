@@ -96,9 +96,50 @@ cout<<"Space="<<x*y<<"CM^2";
 //    cout<<"Zero";
 //}
 
-int x ;
-cout<<"Enter your number:";
-cin >>x;
-x>0 ? cout<<"positive" : cout<< "nagitive";
+//int x ;
+//cout<<"Enter your number:";
+//cin >>x;
+//x>0 ? cout<<"positive" : cout<< "nagitive";
+
+// Switch Statement ------------------مهم جدا جدا
+
+//int x ;
+//cout<<"Enter Your Number";
+//cin>>x;
+//
+//    switch(x)
+//    {
+//        case 0: cout<<"0"; break;
+//        case 1: cout<<"1";break;
+//        case 2: cout<<"2";break;
+//        case 3: cout<<"3";break;
+//        default: cout<<"noun";break;
+//    }
+
+//int x ,y , result;
+//char op ;
+//cout<<"Enter First Number";
+//cin>>x;
+//cout<<"Enter Second Number";
+//cin>>y;
+//cout<<"What is Operation you want to do?";
+//cin>>op;
+//    switch (op) {
+//        case '+': cout<<"X+Y = "<<x+y;break;
+//        case '-': cout<<"X-Y = "<<x-y;break;
+//        case '*': cout<<"X*Y = "<<x*y;break;
+//        case '%': cout<<"X%Y = "<<x%y;break;
+//        case '/': cout<<"X/Y = "<<x/y;break;
+//        default:cout<<"noun";break;
+//    }
+
+//    int x ,y , result = 0;
+//    char op;
+//    cout<<"Enter Two Number";
+//    cin>>x>>y;
+//    cout<<"Enter op";
+//    cin>> op;
+//    result = (op == '+') ? x+y : (op == '-') ? x-y : (op == '*') ? x*y :(op == '/') ? x/y : x%y ;
+//    cout<<"Result:"<<result;
 return 0 ;
 }
