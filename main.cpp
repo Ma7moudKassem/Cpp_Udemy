@@ -1,9 +1,7 @@
 #include<iostream>
 
 using namespace std;
-int main ()
-
-{
+int main () {
 //    int x , y ;
 //    cout<<"enter first number:";
 //    cin>> x;
@@ -144,6 +142,66 @@ cout<<"Space="<<x*y<<"CM^2";
 //    result = (op == '+') ? x+y : (op == '-') ? x-y : (op == '*') ? x*y :(op == '/') ? x/y : x%y ;
 //    cout<<"Result:"<<result;
 
+// ----------------------------loop-------------------------//
+//* while
+
+//int i=0;
+//while(i<5)
+//{
+//    cout<<"i = "<<i<<endl;
+//    i++;
+//}
+//
+//    int i = 1;
+//    while (i<10){
+//        cout<<"I = "<<i<<endl;
+//        i++;
+//    }
+
+//int i = 0;
+//    while (i>10)
+//    {
+//        cout<<"i="<<i<<endl;
+//        i++;
+//    }
+
+// * do while
+
+//int i=0;
+//do{
+//    cout<<"i="<<i<<endl;
+//    i++;
+//} while (i>10);
+
+//* for statement
+
+//for(int i=0;i<10;i++)
+//{
+//    cout<<"Hello"<<endl;
+//}
+//
+
+// nested loops
+
+//int x=1;
+//    while (x<10)
+//    {
+//        int y =1;
+//        while (y<10)                            // by while
+//        {
+//            cout<<x<<"*"<<y<<"="<<x*y<<endl;
+//            y++;
+//        }
+//        x++;
+//    }
+
+for(int x =1;x<=10;x++)
+{
+    for(int y =1 ; y<=10;y++)                  // by for
+    {
+        cout<<x<<"*"<<y<<"="<<x*y<<endl;
+    }
+}
 
 return 0 ;
 }
