@@ -195,13 +195,42 @@ cout<<"Space="<<x*y<<"CM^2";
 //        x++;
 //    }
 
-for(int x =1;x<=10;x++)
-{
-    for(int y =1 ; y<=10;y++)                  // by for
-    {
-        cout<<x<<"*"<<y<<"="<<x*y<<endl;
-    }
-}
+//for(int x =1;x<=10;x++)
+//{
+//    for(int y =1 ; y<=10;y++)                  // by for
+//    {
+//        cout<<x<<"*"<<y<<"="<<x*y<<endl;
+//    }
+//}
+
+// degree app
+
+
+//    while (true)
+//    {
+//
+//        int degree;
+//        cout<<"Enter your degree:";
+//        cin>>degree;
+//
+//        if(degree >100 || degree < 0) {
+//            return  0 ;
+//        }
+//
+//        if(degree>= 90){
+//            if(degree>=95)
+//            {
+//                cout<<"+A\n";
+//            } else{cout<<"-A\n";}
+//        }
+//        else if(degree>= 80){cout<<"B\n";}
+//        else if(degree>= 70){cout<<"C\n";}
+//        else if(degree>= 60){cout<<"D\n";}
+//        else if(degree>= 50){cout<<"F\n";}
+//        else{cout<<"Unknown\n";}
+//
+//    }
 
 return 0 ;
+
 }
